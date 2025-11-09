@@ -1,0 +1,14 @@
+/* frontend/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* simple global styles - use Tailwind classes in components */
+body {
+  @apply font-sans bg-gradient-to-br from-indigo-50 via-slate-50 to-white min-h-screen text-gray-800;
+}
+
+/* small card shadow */
+.card {
+  @apply bg-white/90 rounded-2xl shadow-md p-6 border border-gray-100;
+}
